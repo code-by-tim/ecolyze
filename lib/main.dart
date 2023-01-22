@@ -74,8 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
       // your credentials of the AWS Rekognition Service
       aws.Rekognition rekognition = aws.Rekognition(
           region: 'us-east-1',
-          credentials: aws.AwsClientCredentials(
-              accessKey: 'XXXXXXX', secretKey: 'XXXXXXX'),
+          credentials:
+              aws.AwsClientCredentials(accessKey: 'XXXXX', secretKey: 'XXXXX'),
           client: httpClient,
           endpointUrl: "https://rekognition.us-east-1.amazonaws.com");
 
@@ -156,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Padding(
                             padding: const EdgeInsets.only(top: 16),
                             child: Text(
-                                'Error: ${snapshot.error}. Please contact us, so that we can activate the AI-Model for you!'),
+                                'The AI-Model needs to be activated first! Please refer to the Github Repository or the Technical Project Description for more information!\n\nError: ${snapshot.error}. '),
                           ),
                         ];
                       } else {
