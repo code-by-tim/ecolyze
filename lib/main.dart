@@ -70,6 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ])));
     } else {
+      // To-do: To use this programm change the following attributes to
+      // your credentials of the AWS Rekognition Service
       aws.Rekognition rekognition = aws.Rekognition(
           region: 'us-east-1',
           credentials: aws.AwsClientCredentials(
