@@ -17,3 +17,6 @@ The app was tested on Android phones with at least Android 9 (API Level 28).
 2. Set up an AWS Rekognition Model detecting Custom Labels.
 3. In lib\main.dart insert the credentials and region for your own AWS Rekognition Model 73-80.
 4. Run the app on the Emulator.
+
+# Contact
+Please don't hesitate to contact us over [mail](mailto:tim.baechle@tum.de)
