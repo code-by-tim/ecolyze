@@ -21,4 +21,4 @@ Download and install the [executable APK-File](app-release.apk) on your android 
 ## Important!
 Don't forget to stop the AWS Rekognition service after you have tested the app.
 # Contact
-Please don't hesitate to contact us over [mail](mailto:tim.baechle@tum.de)
+Please don't hesitate to contact us over [mail](mailto:tim.baechle@tum.de) if there are any questions!
